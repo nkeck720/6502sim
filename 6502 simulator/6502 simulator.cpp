@@ -50,10 +50,7 @@ int main(int argc, char* argv[])
 			memoryMap[i] = rand();
 	}
 	printf("Loading ROM...\n");
-	for(i = romStart; i < romEnd; i++) {
-		unsigned char byteRead;
-		fscanf(romFile, "%hhu", memoryMap[i]);
-	}
+	fread(&memoryMap[romStart], 1, romLength, romFile);
 	fclose(romFile);
 	printf("ROM loaded.\n");
 	/* Start the CPU, using the ROM values and memory map from before. */

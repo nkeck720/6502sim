@@ -1,4 +1,4 @@
-﻿Build started 8/4/2017 5:35:14 PM.
+﻿Build started 8/4/2017 6:16:16 PM.
      1>Project "C:\Users\Noah Keck\documents\visual studio 2010\Projects\6502 simulator\6502 simulator\6502 simulator.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\6502 simulator.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -6,12 +6,12 @@
          All outputs are up-to-date.
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\6502 simulator.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 6502.cpp
          6502.cpp
-     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(63): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(64): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(65): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
      1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(66): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(137): warning C4552: '>>' : operator has no effect; expected operator with side-effect
-     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(157): warning C4552: '<<' : operator has no effect; expected operator with side-effect
+     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(67): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(68): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(69): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(140): warning C4552: '>>' : operator has no effect; expected operator with side-effect
+     1>c:\users\noah keck\documents\visual studio 2010\projects\6502 simulator\6502 simulator\6502.cpp(160): warning C4552: '<<' : operator has no effect; expected operator with side-effect
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -32,4 +32,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.23
+Time Elapsed 00:00:01.63
