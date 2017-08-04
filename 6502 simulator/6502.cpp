@@ -54,7 +54,7 @@ void start6502(unsigned int romStart, unsigned int romEnd, unsigned char *memory
 	/* Init the flags */
 	stackPointer = 0xFD;
 	programCounter = memory[(unsigned int)0xFFFD];
-	programCounter << 8;
+	programCounter = programCounter << 8;
 	programCounter += memory[(unsigned int)0xFFFC];
 	flags.interrupt = true;
 	flags.sc1 = true;
