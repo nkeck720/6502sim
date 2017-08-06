@@ -170,7 +170,7 @@ bool do6502Instruction(unsigned char inst, unsigned char op1, unsigned char op2,
 }
 
 void waitCycles(unsigned char inst) {
-	fprintf(stderr, "SYS: waitCycles() called, but not yet implemented\nSYS: opcode to wait for %u\n", currentInstruction);
+	fprintf(stderr, "SYS: waitCycles() called, but not yet implemented\nSYS: opcode to wait for %u\n", (unsigned int)inst);
 }
 
 #endif
